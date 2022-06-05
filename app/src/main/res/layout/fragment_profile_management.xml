@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myBackground"
+    tools:context=".fragmants.ProfileManagementFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tVname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full Name:"
+            app:layout_constraintBottom_toTopOf="@+id/tVemail"
+            app:layout_constraintEnd_toStartOf="@+id/tVtheName"
+            app:layout_constraintHorizontal_bias="0.402"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.586" />
+
+        <TextView
+            android:id="@+id/tVtheName"
+            android:layout_width="113dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="148dp"
+            android:text="My Name"
+            app:layout_constraintBottom_toTopOf="@+id/tVtheEmail"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.658" />
+
+        <TextView
+            android:id="@+id/tVemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="44dp"
+            android:text="Email:"
+            app:layout_constraintBottom_toTopOf="@+id/tVpassword"
+            app:layout_constraintEnd_toStartOf="@+id/tVtheEmail"
+            app:layout_constraintHorizontal_bias="0.444"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tVthePassword"
+            android:layout_width="116dp"
+            android:layout_height="35dp"
+            android:layout_marginEnd="144dp"
+            android:text="My Password"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="215dp" />
+
+        <TextView
+            android:id="@+id/tVpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="44dp"
+            android:text="Password:"
+            app:layout_constraintBottom_toTopOf="@+id/tVdogName"
+            app:layout_constraintEnd_toStartOf="@+id/tVthePassword"
+            app:layout_constraintHorizontal_bias="0.43"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tVtheEmail"
+            android:layout_width="115dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="148dp"
+            android:layout_marginBottom="28dp"
+            android:text="My Email"
+            app:layout_constraintBottom_toTopOf="@+id/tVthePassword"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/tVdogName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Dog Name:"
+            app:layout_constraintEnd_toStartOf="@+id/eTtheDogName"
+            app:layout_constraintHorizontal_bias="0.412"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="286dp" />
+
+        <Button
+            android:id="@+id/buttonEditDogName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit dog name"
+            android:background="@drawable/round_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/eTtheDogName"
+            app:layout_constraintVertical_bias="0.13" />
+
+        <EditText
+            android:id="@+id/eTtheDogName"
+            android:layout_width="115dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="144dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="My Dog Name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tVthePassword" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
