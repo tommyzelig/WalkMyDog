@@ -5,7 +5,10 @@
       <map>
         <entry key="..\:/Users/97254/OneDrive/Desktop/HIT/WalkMyDogProjectGIS/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.287" />
         <entry key="..\:/Users/97254/OneDrive/Desktop/HIT/WalkMyDogProjectGIS/app/src/main/res/drawable/round_button.xml" value="0.287" />
-        <entry key="..\:/Users/97254/OneDrive/Desktop/HIT/WalkMyDogProjectGIS/app/src/main/res/layout/activity_main.xml" value="0.17119565217391305" />
+        <entry key="..\:/Users/97254/OneDrive/Desktop/HIT/WalkMyDogProjectGIS/app/src/main/res/font/aclonica.xml" value="0.2671875" />
+        <entry key="..\:/Users/97254/OneDrive/Desktop/HIT/WalkMyDogProjectGIS/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/97254/OneDrive/Desktop/HIT/WalkMyDogProjectGIS/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/97254/OneDrive/Desktop/HIT/WalkMyDogProjectGIS/app/src/main/res/layout/activity_register.xml" value="0.2" />
         <entry key="..\:/Users/97254/OneDrive/Desktop/HIT/WalkMyDogProjectGIS/app/src/main/res/layout/fragment_profile_management.xml" value="0.3451086956521739" />
       </map>
     </option>
