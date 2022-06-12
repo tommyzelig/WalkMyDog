@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "159290518945",
+    "project_id": "walkmydogprojectgis",
+    "storage_bucket": "walkmydogprojectgis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159290518945:android:f7e06c4342b7f95b4aefe0",
+        "android_client_info": {
+          "package_name": "com.homeproject.walkmydogprojectgis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159290518945-cfs600fmb59hls2f6l9okni7ikm0e3hp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp63BEe27_QjeTh0M5aK99VX__lvFuTO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159290518945-cfs600fmb59hls2f6l9okni7ikm0e3hp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
